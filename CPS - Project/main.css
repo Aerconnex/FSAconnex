@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    background-color: #272525;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    align-items: center;
+}
+.header a{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 2px;
+    text-align: center;
+    transition: text-decoration 2s;
+}
+.navbar{
+  justify-content: center;
+}
+.Especial{
+  margin-left: 100%;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+.underline{
+    text-decoration: underline;
+}
+.header div .logo{
+    justify-self: start;
+    text-align: left;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 550px;
+}
+#Active{
+  text-decoration: underline;
+}
+
+/* CSS */
+.Button_Especial {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(36, 125, 203);
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 69%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: "Montserrat","Poppins",sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+}
+
+.Button_Especial:active,
+.Button_Especial:focus {
+  outline: none;
+}
+
+.Button_Especial:hover {
+  background-position: -20px -20px;
+}
+
+.Button_Especial:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+tr:hover{
+  background-color: #149BF3;
+  color: white;
+
+}
+table{
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Pricing{
+  background-color: #4F58FD;
+  color: white;
+  padding: 20px;
+}
+.card {
+  width: 300px;
+  height: auto;
+  padding-bottom: 7px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.3s ease;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
+.FinePrint{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-small;
+  font-style: italic;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.subheader{
+  padding-top: -400px;
+}
+p{
+  padding-left: 17px;
+}
+.container{
+  display: flex;
+}
+form input, form select, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  border-radius: 50px;
+}
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.special_card{
+  vertical-align: middle;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
+.special_card{
+  h2{
+    color: #fff;
+  }
+  .FinePrint{
+    color: #fff;
+  }
+}
+form{
+  a{
+    text-decoration: none;
+    color: #333;
+    transition: color 2s;
+    :hover{
+      color: #272525;
+      text-decoration: solid;
+    }
+  }
+}
